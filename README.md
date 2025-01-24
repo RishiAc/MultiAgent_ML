@@ -2,6 +2,8 @@
 
 Creating a dashboard to control several robotic platforms through ROS, simplifying multi-agent machine learning
 
+The main functionality comes from running the multiTurtle_slam.py file, where you can specify the number of robots you wish to spawn. Then run the MoveCoordinate.py file where you can specify coordinates for each robot to move to. 
+
 For this project we used ROS Noetic with Rviz and Turtlebot3
 
 Changes: Wanted to modify robot files to enable multi robot navigation. So main files that needed editing were the files in navigation: move_base, turtlebot3_navigation, and amcl
